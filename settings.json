@@ -1,0 +1,146 @@
+{
+	/* Global preferences */
+	"workbench.tree.indent": 24,
+	"workbench.iconTheme": "symbols",
+	"workbench.startupEditor": "none",
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.enablePreview": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.location": "hidden",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.editor.titleScrollbarSizing": "large",
+	/*-----------------------------------------------------------------------*/
+	/* Git */
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	/*-----------------------------------------------------------------------*/
+	/* Editor Config */
+	"editor.tabSize": 4,
+	"editor.fontSize": 16,
+	"editor.lineHeight": 1.8,
+	"editor.fontLigatures": true,
+	/* Download: https://www.jetbrains.com/lp/mono */
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnPaste": true,
+	"editor.suggest.preview": true,
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "none",
+	"editor.snippetSuggestions": "none",
+	"editor.suggest.showSnippets": false,
+	"editor.suggest.showStatusBar": true,
+	"editor.renderLineHighlight": "gutter",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.semanticHighlighting.enabled": false,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.suggest.snippetsPreventQuickSuggestions": true,
+	"editor.quickSuggestions": {
+		"comments": "off",
+		"strings": "off",
+		"other": "on",
+	},
+	/*-----------------------------------------------------------------------*/
+	/* Explorer */
+	"explorer.confirmDelete": true,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": true,
+	"explorer.fileNesting.enabled": true,
+	"explorer.sortOrder": "foldersNestsFiles",
+	"explorer.fileNesting.patterns": {
+		".env": ".env*",
+		".env.local": ".env*",
+		"tailwind.config.js": "tailwind.config*, postcss.config*",
+		"tailwind.config.ts": "tailwind.config*, postcss.config*",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .eslint*, vite*"
+	},
+	/*-----------------------------------------------------------------------*/
+	/* Window */
+	"window.zoomLevel": 1,
+	"window.commandCenter": false,
+	"window.titleBarStyle": "custom",
+	/*-----------------------------------------------------------------------*/
+	/* Terminal */
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.env.windows": {},
+	"terminal.integrated.scrollback": 1000.0,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.gpuAcceleration": "auto",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	/* Download: https://www.nerdfonts.com/font-downloads */
+	// "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	/*-----------------------------------------------------------------------*/
+	/* Files */
+	"files.associations": {
+		"*.png": "plaintext"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		".vscode": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
+	/*-----------------------------------------------------------------------*/
+	/* Files */
+	"apc.electron": {
+		"titleBarStyle": "hiddenInset",
+		"frame": false
+	},
+	"apc.header": {
+		"height": 36
+	},
+	"apc.listRow": {
+		"height": 24
+	},
+	"apc.stylesheet": {
+		".monaco-list-row": "border-radius: 4px;",
+		".nosidebar .inline-tabs-placeholder": "width: 75px",
+		".split-view-view:first-child .pane-header": "display: none !important;",
+		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+	},
+	/*-----------------------------------------------------------------------*/
+	"breadcrumbs.enabled": false,
+	"extensions.ignoreRecommendations": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"security.workspace.trust.untrustedFiles": "open",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"scss.lint.unknownAtRules": "ignore",
+	"emmet.useInlineCompletions": true,
+	"path-intellisense.autoTriggerNextSuggestion": true,
+	"javascript.suggest.completeFunctionCalls": true,
+	"git.mergeEditor": true,
+	"debug.terminal.clearBeforeReusing": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"typescript.inlayHints.parameterNames.enabled": "all",
+	"debug.console.acceptSuggestionOnEnter": "on",
+	"emmet.showSuggestionsAsSnippets": false,
+	"diffEditor.renderSideBySide": false,
+	"symbols.hidesExplorerArrows": false,
+	"window.density.editorTabHeight": "compact",
+}
