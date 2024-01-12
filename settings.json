@@ -58,9 +58,10 @@
 	"explorer.fileNesting.patterns": {
 		".env": ".env*",
 		".env.local": ".env*",
+		"Dockerfile": "Docker*, docker*",
 		"tailwind.config.js": "tailwind.config*, postcss.config*",
 		"tailwind.config.ts": "tailwind.config*, postcss.config*",
-		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .eslint*, vite*"
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .eslint*, vite*, .npm*"
 	},
 	/*-----------------------------------------------------------------------*/
 	/* Window */
