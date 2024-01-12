@@ -36,7 +36,7 @@
         "command": "editor.action.rename"
     },
     {
-        "key": "ctrl+shift+g",
+        "key": "ctrl+shift+e",
         "command": "workbench.view.extensions",
         "when": "viewContainer.workbench.view.extensions.enabled"
     },
